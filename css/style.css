@@ -1,0 +1,328 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;	
+	font-family: 'Roboto', sans-serif;
+	
+}
+@media(min-width:320px){
+.row-1{
+		display:flex;
+}
+.container{
+	width:98%;
+	margin:auto;
+}
+.col-left{
+	width:20%;
+}
+.col-middle{
+	width:80%;
+}
+.middle-buttons{
+	display:flex;
+	padding:5px 15px;
+	border:1px solid #373836;
+	border-radius:5px;
+	gap:5px;
+}
+.middle-buttons-2{
+	display:flex;
+	padding:5px 15px;
+	border:1px solid #F22FC3;
+	background-color:#F22FC3;
+	border-radius:5px;
+	gap:2px;
+}
+.col-middle-image img{
+	padding:0px 10px;
+}
+.col-left-image-1 img{
+	padding:0 3px;
+}
+.col-left-image,.col-left-image-1{
+	padding:10px;
+}
+}
+@media(min-width:620px){
+.row-1{
+		display:flex;
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+.col-left{
+	width:20%;
+}
+.col-middle{
+	width:80%;
+}
+.middle-buttons{
+	display:flex;
+	padding:5px 45px;
+	border:1px solid #373836;
+	border-radius:5px;
+	gap:5px;
+}
+.middle-buttons-2{
+	display:flex;
+	padding:5px 45px;
+	border:1px solid #F22FC3;
+	background-color:#F22FC3;
+	border-radius:5px;
+	gap:2px;
+}
+.col-middle-image img{
+	padding:0px 40px;
+}
+.col-left-image-1 img{
+	padding:0 10px;
+}
+.col-left-image,.col-left-image-1{
+	padding:15px;
+}
+}
+@media(min-width:960px){
+.row-1{
+		display:flex;
+}
+.row{
+	display:flex;
+	
+}
+.container{
+	width:80%;
+	margin:auto;
+}
+.row-1{
+	width:50%;
+}
+.col-right{
+	width:50%;
+}
+.middle-buttons{
+	display:flex;
+	padding:5px 45px;
+	border:1px solid #373836;
+	border-radius:5px;
+	gap:5px;
+}
+.middle-buttons-2{
+	display:flex;
+	padding:5px 45px;
+	border:1px solid #F22FC3;
+	background-color:#F22FC3;
+	border-radius:5px;
+	gap:2px;
+}
+.col-middle-image img{
+	padding:0px 40px;
+}
+.col-left-image,.col-left-image-1{
+	padding:15px;
+}
+	
+}
+
+a{
+	text-decoration:none;
+}
+
+
+.col-left-image-1 img{
+	max-width:100%;
+	height:auto;
+	border:2px solid #F22FC3;
+}
+
+.col-left-image img{
+	max-width:100%;
+	height:auto;
+}
+.col-middle-image img{
+	max-width:100%;
+	border:1px solid #D2DDD1;
+}
+.col-middle-image{
+	width:90%;
+	margin:auto;
+}
+
+.middle-buttons-2{
+	color:#ffff;
+	
+}
+.middle-button-flex{
+	display:flex;
+	justify-content:center;
+	gap:10px;
+	padding:20px 0;
+	
+}
+.middle-images{
+	display:flex;
+	
+}
+.middle-images-order img{
+	max-width:100%;
+}
+.middle-images-order{
+	padding:10px;
+}
+.cost-flex{
+	display:flex;
+	padding:10px 0;
+}
+.rating{
+	display:flex;
+	background-color:#1EBD16;
+	padding:5px;
+	border-radius:10px;
+	align-items:center;
+	
+}
+.middle-border img{
+		border:2px solid #F22FC3;
+}
+.review{
+	display:flex;
+	gap:5px;
+	align-items:center;
+}
+.rating-icon{
+	color:#ffff;
+	font-size:10px;
+}
+.number{
+	font-weight:bold;
+}
+.delivery p{
+	padding-top:10px;
+}
+.col-right-top{
+	padding:20px 10px;
+	border:1px solid #D2DDD1;
+	
+}
+.size-details a{
+	color:#5F615F;
+	padding:3px 15px;
+	border:1px solid #5F615F;
+	border-radius:10px;
+}
+.size{
+	display:flex;
+	gap:10px;
+	padding:10px;
+}
+.col-right-bottom ul li{
+	list-style-type:none;
+	line-height:25px;
+}
+.col-right-bottom{
+	padding:20px 10px;
+	border:1px solid #D2DDD1;
+}
+	
+
+.col-right-middle{
+	padding:20px 10px;
+	border:1px solid #D2DDD1;
+	margin:10px 0;
+}
+.shop{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.shop-bottom{
+	display:flex;
+	justify-content:space-around;
+	align-items:baseline;
+}
+.shop-icon{
+	font-size:20px;
+	background-color:#CDF2F9;
+	color:#187D8F;
+	padding:10px;
+	width:45px;
+	height:45px;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.shop-button a{
+	color:#F22FC3;
+}
+.shop-button{
+	border:1px solid #F22FC3;
+	border-radius:5px;
+	padding:5px 15px;
+}
+.col-right-bottom-2{
+	padding:20px 10px;
+	border:1px solid #D2DDD1;
+	margin:10px 0;
+}
+.col-right-bottom-2 h4{
+	padding:0 0 20px 0;
+}
+.col-right-bottom h3{
+	padding-bottom:10px;
+}
+.shop-bottom{
+	padding:20px 0;
+}
+.number{
+	padding:0 5px;
+}
+.shop-blue{
+	color:#187D8F;
+	padding:3px 10px;
+	border:1px solid #D2DDD1;
+	border-radius:10px;
+}
+.more-info{
+	border-bottom:1px dotted #D2DDD1;
+	display:inline;
+}
+.col-right-middle h4{
+	padding-bottom:10px;
+}
+.rating-para p{
+	padding-right:5px;
+	color:#ffff;
+}
+.shop-inside{
+	display:flex;
+	align-items:center;
+	gap:10px;
+	
+}
+.icon-position{
+	background-color:#ffff;
+	font-size:20px;
+	padding:10px;
+	width:25px;
+	height:25px;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.middle-relative{
+	position:relative;
+}
+.icon-position{
+	position:absolute;
+	top:35%;
+	right:0;
+}
+.shop-pad{
+	padding-bottom:10px;
+}
+.shop-pad-1{
+	padding-top:7px;
+}
